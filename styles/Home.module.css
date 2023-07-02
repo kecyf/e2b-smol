@@ -1,0 +1,31 @@
+.homeContainer {
+  @apply flex flex-col items-center justify-center min-h-screen py-2;
+}
+
+.main {
+  @apply flex flex-col items-center justify-center flex-1 px-20 text-center;
+}
+
+.footer {
+  @apply w-full h-24 border-t border-gray-200 flex justify-center items-center;
+}
+
+.title {
+  @apply text-6xl font-bold;
+}
+
+.description {
+  @apply text-2xl;
+}
+
+.code {
+  @apply p-6 mt-6 text-left border w-96 rounded-xl;
+}
+
+.codeLanguage {
+  @apply text-gray-300;
+}
+
+.logo {
+  @apply h-12 w-12;
+}
